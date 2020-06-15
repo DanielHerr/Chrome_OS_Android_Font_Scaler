@@ -1,0 +1,41 @@
+body {
+ text-align: center;
+}
+
+datalist {
+ display: block;
+ font-size: 22px;
+}
+
+option {
+ display: inline-block;
+}
+
+datalist option[value="1"] {
+ text-align: left;
+}
+datalist option[value="2"] {
+ text-align: right;
+}
+
+#sizeslider {
+ transform: scale(2);
+ width: 50%;
+ margin-top: 20px;
+}
+
+span {
+ font-size: 32px;
+}
+
+#sizeoutput {
+ font-weight: bold;
+}
+
+dialog {
+ font-size: 22px;
+}
+
+button {
+ font-size: 24px;
+}

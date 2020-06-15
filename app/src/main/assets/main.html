@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+ <script src="main.js" defer></script>
+ <link rel="stylesheet" href="main.css">
+ <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+</head>
+<body>
+ <datalist id="marks">
+  <option value="100">100%</option>
+  <option value="130"></option>
+  <option value="200">200%</option>
+ </datalist>
+ <input type="range" id="sizeslider" list="marks" min="100" step="5" max="200" value="100">
+ <br><br>
+ <span>
+  Font Size: <output id="sizeoutput">100</output>%
+ </span>
+ <dialog id="explanation">
+  In order to set the font size every time you turn on your device,<br>
+  this app needs to be granted permission to change Android system settings.
+  <br><br>
+  <button id="grant">Grant Permission</button>
+ </dialog>
+</body>
