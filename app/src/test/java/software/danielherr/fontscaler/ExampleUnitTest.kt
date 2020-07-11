@@ -1,4 +1,4 @@
-package software.danielherr.chromeosfontsizechanger
+package software.danielherr.fontscaler
 
 import org.junit.Test
 

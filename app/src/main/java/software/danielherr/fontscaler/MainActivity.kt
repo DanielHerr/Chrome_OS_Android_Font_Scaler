@@ -1,20 +1,15 @@
-package software.danielherr.chromeosfontsizechanger
+package software.danielherr.fontscaler
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
-import android.view.Window
 import android.webkit.JavascriptInterface
-import android.webkit.WebMessage
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat.startActivityForResult
-import androidx.core.content.ContextCompat.startActivity
-import androidx.core.content.SharedPreferencesCompat
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
 
